@@ -1,7 +1,7 @@
 /*****************************************************
 * CSS Mockup Activity - Custom CSS Stylesheet
 * @author rlewis37
-*
+* @author pstreet1
 * Some rules have been included here to give you a head start.
 * Create your own custom CSS rules below. Have fun!
 * css format...
@@ -16,8 +16,22 @@ body {
 	font-family: Helvetica, Arial, sans-serif;
 }
 
-p {
-	color: red;
+h1 {
+	color: deeppink;
+	font-size: 44px;
+	margin: 0;
+}
+
+h2 {
+	color: orange;
+	font-size: 24px;
+}
+
+header {
+	background-color: purple;
+	color: yellow;
+	height: 100px;
+	padding: 20px;
 }
 
 html {
@@ -25,13 +39,61 @@ html {
 	box-sizing: border-box;
 }
 
-.container {
-	margin: 0 auto;
-	padding: 0 2rem;
+main {
+	padding: 20px;
+}
+
+p {
+color: red;
+}
+
+textarea {
+	height: 200px;
+	width: 300px;
+}
+
+td {
+	padding: 5px;
 }
 
 .clearfix {
 	clear: both;
+}
+
+.container {
+	background-color: cyan;
+	margin: 0 auto;
+	padding: 0 2rem;
+	width: 1000px;
+}
+
+.container1 {
+	background-color: mediumpurple;
+	margin: 0 auto;
+	padding: 0 2rem;
+	width: 1000px;
+}
+
+.flt-right {
+	float: right;
+}
+
+.img-small {
+	border: 5px solid #ddd;
+	height: auto;
+	margin: 10px;
+	padding: 10px;
+	width: 200px;
+}
+
+.sfooter {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.sfooter-content {
+	flex: 1 0 auto;
 }
 
 /* create a responsive container */
@@ -56,15 +118,6 @@ html {
 html { display: flex;}
 body { width: 100%;}
 
-.sfooter {
-	display: flex;
-	flex-direction: column;
-	min-height: 100vh;
-}
-
-.sfooter-content {
-	flex: 1 0 auto;
-}
 
 /*****************************************************
 * ADD YOUR OWN CSS BELOW! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧
