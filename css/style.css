@@ -5,14 +5,20 @@
 * Some rules have been included here to give you a head start.
 * Create your own custom CSS rules below. Have fun!
 * css format...
-*selector {
+selector {
 	property: value;
 }
 ******************************************************/
 body {
 	margin: 0;
 	box-sizing: border-box;
-	background-color: blue;
+	background-color: greenyellow;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+p {
+	color: red;
+}
 
 html {
 	margin: 0;
