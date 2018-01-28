@@ -3,15 +3,12 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-
-		<!-- custom CSS stylesheet -->
-		<link rel="stylesheet" href="css/style.css" type="text/css" />
-
-		<title>CSS Mockup Activity</title>
+		<!-- custom CSS stylesheet not in-line or in the head but rather in it's own dir/file-->
+		<link rel="style" type="text/css" href="css/style.css">
+		<title>CSS Mockup Activity - Peter Street - pstree1</title>
 	</head>
 	<body class="sfooter">
 		<div class="sfooter-content">
-
 			<!-- HEADER -->
 			<header>
 				<div class="container">
